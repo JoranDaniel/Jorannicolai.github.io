@@ -1,0 +1,168 @@
+
+
+
+.home {
+    background-color: #bc9091;
+
+    height: 100vh; /* Vul het volledige scherm */
+    display: flex;
+    flex-direction: column; /* Zorg ervoor dat de inhoud verticaal wordt gestapeld */
+    align-items: flex-start; /* Zorg dat de inhoud aan de linkerkant uitgelijnd blijft */
+    justify-content: flex-start; /* Zorg dat de inhoud bovenaan begint */
+    padding: 0 20px; /* Voeg wat padding toe */
+    position: relative; /* Zorg dat je de afbeelding nauwkeurig kunt positioneren */
+}
+
+/* Zorg dat de navigatiebalk bovenaan staat */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 98%;
+    position: absolute; /* Plaats de navbar absoluut bovenaan */
+    top: 0; /* Zorg dat de navbar vastzit aan de bovenkant */
+    left: 0;
+    margin-top: 30px; /* Voeg marge toe bovenaan om afstand te creëren */
+}
+
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    margin: 0 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #f5f5f5; /* Kleurverandering bij hover */
+}
+
+/* Positie van de afbeelding rechts in het midden */
+.background-image {
+    background-image: url('../images/background.png'); /* Pad naar de afbeelding */
+    background-size: cover; /* Zorg dat de afbeelding de ruimte vult */
+    background-position: center; /* Centreer de afbeelding */
+    width: 1000px; /* Pas de breedte aan naar wens */
+    height: 800px; /* Pas de hoogte aan naar wens */
+    position: absolute;
+    right: 0; /* Zorg dat de afbeelding aan de rechterkant staat */
+    top: 50%; /* Plaats de afbeelding verticaal in het midden */
+    transform: translateY(-50%); /* Centreer de afbeelding verticaal */
+}
+
+/* Zorg ervoor dat de navigatiebalk een flexbox is en de items goed uitlijnt */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Voor de links in de navigatiebalk */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Zorg ervoor dat de icons aan de rechterkant staan */
+.nav-icons {
+    margin-left: auto; /* Zorgt ervoor dat de icons naar rechts worden geduwd */
+    display: flex;     /* Flexbox voor de icons */
+    align-items: center; /* Zorgt voor verticale uitlijning */
+    margin-right: 50px;
+}
+
+/* Specifieke styling voor de iconen */
+.user-icon, .cart-icon {
+    margin-left: 35px; /* Ruimte tussen de iconen */
+    cursor: pointer;   /* Verandert de cursor naar een pointer bij hover */
+}
+
+
+/* Container voor zowel de logo als de achtergrond */
+.background-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between; /* Zorgt ervoor dat beide elementen naast elkaar staan */
+    padding: 0 50px; /* Voeg wat padding toe indien gewenst */
+    width: 100%;
+    height: 800px; /* Pas de hoogte aan op basis van jouw ontwerp */
+}
+
+/* Zorg dat het logo de gewenste grootte heeft */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Ruimte tussen logo en achtergrond */
+}
+
+.logo-image {
+    width: 150px; /* Pas aan naar de gewenste grootte */
+    height: auto; /* Houd de aspect ratio in stand */
+}
+
+/* Zorg ervoor dat de achtergrondafbeelding de resterende ruimte opvult */
+.background-image {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1; /* Dit zorgt ervoor dat de achtergrond de resterende ruimte inneemt */
+    height: 100%;
+}
+
+.nicolai-fasion {
+    background-image: url('../images/logo.png'); /* Zorg ervoor dat het pad klopt */
+    background-size: contain; /* Houdt de aspect ratio van de afbeelding */
+    background-repeat: no-repeat; /* Voorkom herhaling van de afbeelding */
+    background-position: left; /* Zorgt dat de afbeelding aan de linkerkant wordt uitgelijnd */
+    width: 500px; /* Pas de breedte aan naar jouw wens */
+    height: 500px; /* Pas de hoogte aan naar jouw wens */
+    margin-right: 20px; /* Voeg ruimte toe tussen het logo en andere elementen */
+    position: relative;
+    left: 200px;
+}
+
+.tesktcontainer{
+    width: 300px; /* Pas de breedte aan naar jouw wens */
+    position: relative;
+    left: 275px;
+    bottom: 160px;
+    color: white
+;
+}
+.footer {
+    background-color: #67585f; /* Kleur van de footer */
+    color: white; /* Tekstkleur */
+    text-align: center; /* Centreer de tekst */
+    padding: 20px 0; /* Ruimte boven en onder de tekst */
+    position: absolute;
+    bottom: -90px;
+    left: 0; /* Zorg ervoor dat de footer volledig links staat */
+    width: 100%; /* Zorg dat de footer de volledige breedte inneemt */
+    margin: 0; /* Verwijder eventuele marges */
+    box-sizing: border-box; /* Houdt rekening met padding bij het berekenen van de breedte */
+}
+
+
+
+.footer p {
+    margin: 5px 0; /* Ruimte tussen de paragrafen */
+}
+

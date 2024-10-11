@@ -1,0 +1,20 @@
+.over-ons {
+    display: flex; /* Gebruik flexbox voor horizontale uitlijning */
+    align-items: center; /* Center de items verticaal */
+    justify-content: space-between; /* Zorg ervoor dat er ruimte tussen de items is */
+    background-color: #bc9091; /* Achtergrondkleur */
+    padding: 20px; /* Voeg wat padding toe */
+    color: white; /* Witte tekst */
+}
+
+.content {
+    width: 50%; /* Neem de helft van de breedte in */
+}
+
+.background-image {
+    background-image: url('../images/your-image.jpg'); /* Pad naar de afbeelding */
+    background-size: cover; /* Zorg dat de afbeelding de ruimte vult */
+    background-position: center; /* Centreer de afbeelding */
+    width: 50%; /* Neem de helft van de breedte in */
+    height: 400px; /* Pas de hoogte aan naar wens */
+}

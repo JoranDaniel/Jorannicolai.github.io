@@ -1,0 +1,191 @@
+.contact-page {
+    background-color: #bc9091;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.contact-container {
+    margin-top: 100px; /* Ruimte voor de navigatiebalk */
+    width: 100%;
+    max-width: 1200px; /* Maximale breedte voor het gehele contactgedeelte */
+    text-align: center;
+    color: white;
+}
+
+.contact-flex {
+    display: flex; /* Maak gebruik van flexbox */
+    justify-content: space-between; /* Ruimte tussen de twee secties */
+    gap: 20px; /* Voeg wat ruimte tussen de secties toe */
+    margin-top: 20px; /* Extra ruimte boven de secties */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%; /* Maximaliseer de breedte van het formulier */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: #f5f5f5;
+    color: #bc9091;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #e1e1e1; /* Kleurverandering bij hover */
+}
+
+.contact-info {
+    width: 50%; /* Maximaliseer de breedte van de contactinformatie */
+    text-align: left; /* Zorg dat de tekst links is uitgelijnd */
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.contact-info p svg {
+    margin-right: 10px; /* Ruimte tussen de icon en de tekst */
+}
+
+.contact-container{
+
+    width: 600vh;
+  height: 600px;
+    margin-top: 200px;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.formcontact{
+    padding-left: 25px;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: lightgray;
+    border: solid 0px;
+    margin-bottom: 10px;
+}
+
+.formcontact2 {
+    padding-left: 25px;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+    background-color: lightgray;
+    border: solid 0px;
+    margin-top: -20px;
+}
+
+.formcontact1{
+
+    background-color: #34b3af;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+   color: white;
+    border: solid 0px;
+}
+
+
+.formcontact3{
+    background-color: #34b3af;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: solid 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.formkleur{
+    color: white;
+}
+
+.contact-page {
+    background-color: #bc9091;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: fixed; /* Zorg dat de navbar bovenaan blijft */
+    top: 0;
+    left: 0;
+
+}
+
+.contact-container {
+    margin-top: 100px; /* Ruimte voor de navigatiebalk */
+    display: flex; /* Flexbox voor lay-out */
+    justify-content: space-between; /* Ruimte tussen formulier en achtergrondafbeelding */
+    align-items: flex-start; /* Zorg ervoor dat ze bovenaan zijn uitgelijnd */
+    width: 100%;
+}
+
+.form-section {
+    width: 50%; /* Maximaliseer de breedte van het formulier */
+    padding: 20px; /* Voeg wat padding toe */
+}
+
+.background-image {
+    background-image: url('../images/background.png'); /* Voeg hier de juiste afbeelding toe */
+    background-size: cover; /* Zorg ervoor dat de afbeelding volledig bedekt */
+    width: 50%; /* Neem de helft van de breedte in beslag */
+    height: 100%; /* Volledige hoogte */
+}
+
+
+
+
+
+
